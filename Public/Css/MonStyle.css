@@ -1,0 +1,221 @@
+html, body{
+    font-family: 'fontawesome', 'Times News Roman ', 'ActionMan';
+    font-size: 0.95em;
+    padding:0px;
+    margin: 0px;
+}
+#BodyPage{
+    width: 80%;
+}
+@font-face{
+    font-family: 'fontawesome';
+    src: url('../fontawesome/webfonts/fa-brands-400.eot');
+    src: url('../fontawesome/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype');
+    src: url('../fontawesome/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+    src: url('../fontawesome/webfonts/fa-brands-400.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Noro';
+    src: url('../Noro/NotoSansKR-Black.otf');
+    src: url('../Noro/NotoSansKR-Bold.otf#Noro') format('otf');
+    src: url('../Noro/NotoSansKR-Light.otf');
+    src: url('../Noro/NotoSansKR-Medium.otf');
+    src: url('../Noro/NotoSansKR-Regular.otf');
+    src: url('../Noro/NotoSansKR-Thin.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ActionMan';
+    src: url('../ActionMan/Action_Man.ttf');
+    src: url('../ActionMan/Action_Man_Bold.ttf');
+    src: url('../ActionMan/Action_Man_Bold_Italic.ttf#ActionMan') format('ttf');
+    src: url('../ActionMan/Action_Man_Extended_Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+#Entete{
+    border: 3px solid rgb(12, 12, 12);
+    height: 65px;
+    height: auto;
+    background-color: rgb(20, 4, 65);
+    padding: 0px;
+    letter-spacing: 2px;
+}
+a{
+    font-family: 'ActionMan','fontawesome','Noro' ,Georgia, 'Times New Roman', Times, serif;
+}
+.Inner{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+.FormulaireInscription{
+    border: 4px solid rgb(18 70 223);
+    width: 25%;
+    margin:auto;
+}
+#BoutonBack{
+    border-radius: 10px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+#BoutonBack:hover{
+    text-decoration: none;
+}
+.FrmInscri{
+    margin: 20px;
+    letter-spacing:2px;
+    padding: 0px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+#BtnSearch{
+    display: inline-block;
+    padding: 0px;
+    margin: 200px;
+    width: auto;
+    border: 2px solid rgb(178, 223, 18);
+}
+.InputSearch{
+    width: auto;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.CorpsApropos{
+    border: 3px solid rgba(190, 180, 200, 1);
+    background-color: rgba(230, 160, 200, 1);
+    height: 300px;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#CorpsContact{
+    border: 3px solid rgba(190, 180, 200, 1);
+    background-color: rgb(132, 65, 196);
+    height: 350px;
+    width: auto;
+    margin-top: 5px;margin-bottom: 5px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+.TextContact{
+    margin-top: 7px;
+    margin-bottom: 4px;;
+    font-family: 'ActionMan';
+    color: rgb(78, 6, 221);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+}
+#EssaieContainer{
+    border: 4px solid red;
+    margin: 5px;
+}
+#DivContainer{
+    border: 4px solid blue;
+    height : 200px;
+}
+.FormContact{
+    padding:10px;
+    margin:auto;
+    margin: 20px;
+    width: 90%;
+    height:auto;
+    border: 4px solid rgb(9 13 66);
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+.ContatctForm{
+    width: auto;
+    height: 400px;
+    padding: 0px;margin: 0px;
+    border: 4px solid rgb(178, 223, 18);
+    font-size: 1.9em;
+}
+#Pied{
+    font-family: 'fontawesome';
+    text-align: center;
+    border-top: 4px;
+    font-weight: bold;
+    border: 2px solid rgb(20, 4, 65);
+    margin: auto;padding: 0px;
+    color: ivory;
+    width: auto;
+}
+#FooterLogin{
+    border-top: 8px solid red;
+    border-top: 20px;
+    text-align:center;
+    margin-top: 20px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+#FormNewletters{
+    padding-left: -200px;
+    float: right;
+    margin: auto;
+}
+#NewlettersElemets{
+    padding: 0px;
+    margin-top: auto;
+    text-align: center;
+}
+.TitleSite, h1{
+    color: rgba(255,255,255,1);
+    margin: 0px;padding: 0px;
+    font-family: 'ActionMan';
+    font: 'ActionMan';
+}
+#DetailMenu{
+    background-color: rgb(178, 223, 18);
+    border: 2px solid rgb(178, 223, 18);
+    height: 40px;
+    width: 200px;
+    float: right;
+}
+.ConnexionSite{
+    /* border-radius: 4px solid rgba(20, 120, 255,1); */
+    border-radius: 8px;
+    background-color:rgba(240, 250, 230, 1);
+}
+#EnteteLogin{
+    text-align: center;
+    margin: auto;
+    text-decoration: aqua;
+}
+#Menu{
+    margin: 0px;padding: 0px;
+}
+.Lien:hover{
+    border-color:rgba(200, 202, 230, 1) ;
+}
+.MonMenu{
+    margin: 0px;padding: 0px;
+    transition: all 0,5s ease-in-out;
+}
+.MonMenu a{
+    margin-top: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color : rgba(255, 255,255,1);
+    width: auto;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px;margin: 7px 7px;
+    border-bottom: 6px solid transparent;
+    font-family: 'ActionMan','fontawesome', 'Noro';
+}
+.carousel-inner{
+    height: 140px;
+    width: auto;
+    
+}
