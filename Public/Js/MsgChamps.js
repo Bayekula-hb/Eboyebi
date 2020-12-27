@@ -1,1 +1,0 @@
-alert('Veuillez saisir les données dans tous les champs');

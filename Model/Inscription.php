@@ -4,6 +4,7 @@ if(!isset($_POST['Inscription'])){
     trigger_error('Le bouton n\'existe pas', E_USER_WARNING);
     header('Location:../index.php'); 
 }elseif(!isset($_POST['prenom']) || !isset($_POST['nom']) && !isset($_POST['mail']) || !isset($_POST['pass1']) && !isset($_POST['pass2'])){
+    
     echo ('Veuillez saisir les données dans tous les champs');
     header('Location:../index.php?Page=Login');
     exit();

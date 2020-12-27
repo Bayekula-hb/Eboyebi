@@ -22,5 +22,5 @@
     <br/>
     <div class="g-recaptcha" data-sitekey="6LdW4PwZAAAAAJDdlP9yMWzFftSgQALvW1kkriQq"></div>
     <br/>
-    <button type="submit" class="bg btn-primary" name="Inscription"> S'inscrire </button>
+    <button  id="Btn_Form" type="submit" class="bg btn-primary" name="Inscription"> S'inscrire </button>
 </form>
