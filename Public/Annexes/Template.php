@@ -43,7 +43,7 @@
                         <form class="form-inline" id="NewlettersElemets" method="post" action="Model/Newsletters.php">
                             <div class="form-group">
                                 <input type="email" name="Mail" class="form-control" id="email" placeholder="MonAdresse@boitemail.com">
-                                <button type="submit" name="Newsletters" class="btn btn-info">S'inscrire</button>
+                                <button type="submit" name="Newsletters" class="BtnNewsletters btn btn-info">S'inscrire</button>
                             </div>
                         </form>
                     </div>
