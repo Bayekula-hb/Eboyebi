@@ -9,37 +9,35 @@
         <link rel="stylesheet" href="Public/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="Public/fontawesome/js/all.min.css">
         <link rel="stylesheet" type="text/css" href="Public/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Admins/Public/Css/Style.css">        
         <link rel="stylesheet" type="text/css" href="Public/Css/MonStyle.css">
-        <title> Inscription </title>
+        <title> Login</title>
     </head>
     <body>
         <div class="bg-primary CorpsLogin">    
             <div class="container">
-                <div class="row">
+                <div class="row" id="TitleLogin">
                     <div class="col-12">
                         <p class="h1 text-light" id="EnteteLogin">
                             E-Boyebi
                         </p>
                     </div>
                     <div class="col-12">
-                        <p class="h3 text-warning" id="EnteteLogin">
-                            Inscription 
+                        <p class="col-8 h3 text-warning" id="EnteteLogin">
+                            <a href="Index.php?Page=Login" class="h3 text-warning" id="BoutonBack">
+                            Connexion
+                            </a>
                         </p>
-                    </div>
-                    <div class="col-12">
-                        <a href="index.php?Page=Cours" class="h3 text-warning" id="BoutonBack">
-                            Retour
-                        </a>
+                        <p class="col-4 h3" id="EnteteLogin">
+                            <a href="Index.php?Page=Registraction" class="h3 text-warning" id="BoutonBack">
+                            Inscription
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <div class="bg-light row" >
-                   <div class="col-12">
-                       <p class="h5">
-                           Creer votre compte gratuitement aujourdh'hui
-                       </p>
-                   </div>
                    <div class="col-12" id="FormulaireLogin">
-                      <?php require_once('Public/Annexes/Formulaire.php');?>
+                      <?php require_once('Admins/Public/Annexes/FormulaireConnexion.php');?>
                    </div>
                 </div>
             </div>
@@ -51,6 +49,5 @@
                 </div>
             </div>
         </div>
-        <script src="Public/Js/Mon_Js.js"></script>
     </body>
 </html>

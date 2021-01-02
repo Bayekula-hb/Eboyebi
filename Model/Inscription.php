@@ -11,11 +11,12 @@ if(!isset($_POST['Inscription'])){
     header('Location:../index.php?Page=Login');
 }
 else{
+    $Password = password_hash($_POST['pass2'], PASSWORD_DEFAULT);
     $Query = $Db->prepare('INSERT INTO t_personnes(PrenomPerso, NomPerso, MailPerso, PassPerso) VALUES (:Prenom,:Nom,:Mail,:Pass)');
     $Query->execute(array('Prenom'=>$_POST['prenom'],
                           'Nom'=>$_POST['nom'],
                           'Mail'=>$_POST['mail'],
-                          'Pass'=>$_POST['pass2']));
+                          'Pass'=>$Password));
     header('Location:../index.php?Page=Cours');
     exit();
 }

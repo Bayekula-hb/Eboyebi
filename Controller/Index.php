@@ -23,3 +23,6 @@
     function Login(){
         require_once('View/Login.php');
     }
+    function Registre(){
+        require_once('View/Registre.php');
+    }

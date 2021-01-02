@@ -10,6 +10,8 @@ if(isset($_GET['Page'])){
         Cours();
     }elseif($_GET['Page']=='Login'){
         Login();
+    }elseif($_GET['Page'] == 'Registraction'){
+        Registre();
     }
     else{
         Index();
