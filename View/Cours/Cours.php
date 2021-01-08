@@ -18,3 +18,4 @@
     </div>
 <?php $content = ob_get_clean(); ?>
 <?php require_once("Public/Annexes/Template.php");?>
+<script src="Public/Js/Mon_Js.js"></script>

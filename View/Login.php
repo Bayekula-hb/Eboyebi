@@ -23,16 +23,18 @@
                         </p>
                     </div>
                     <div class="col-12">
-                        <p class="col-8 h3 text-warning" id="EnteteLogin">
-                            <a href="Index.php?Page=Login" class="h3 text-warning" id="BoutonBack">
-                            Connexion
-                            </a>
-                        </p>
-                        <p class="col-4 h3" id="EnteteLogin">
-                            <a href="Index.php?Page=Registraction" class="h3 text-warning" id="BoutonBack">
-                            Inscription
-                            </a>
-                        </p>
+                        <ul>
+                            <li class="col-6 ListBtnBack">
+                                <a href="Index.php?Page=Login" class="h3 text-warning" id="BoutonBack">
+                                    Connexion
+                                </a>
+                            </li>
+                            <li class="col-6 ListBtnBack1">
+                                <a href="Index.php?Page=Registraction" class="h3 text-warning" id="BoutonBack">
+                                    Inscription
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="bg-light row" >
@@ -49,5 +51,6 @@
                 </div>
             </div>
         </div>
+        <script src="../Js/Mon_Js.js"></script>
     </body>
 </html>

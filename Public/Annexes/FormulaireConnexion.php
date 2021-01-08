@@ -8,7 +8,8 @@
         <input type="password" id="pass1" class="form-control" name="pass"/> 
     </div>
     <br/>
-    <div class="g-recaptcha" data-sitekey="6LdW4PwZAAAAAJDdlP9yMWzFftSgQALvW1kkriQq"></div>
+    <!-- <div class="g-recaptcha" data-sitekey="6LdW4PwZAAAAAJDdlP9yMWzFftSgQALvW1kkriQq"></div> -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfhDCEaAAAAALl_97ZC-d7IrPAaOqOixeyWaWf9y"></script>
     <br/>
     <button type="submit" class="BtnConnecter bg btn-primary" name="Inscription"> Se connecter </button>
 </form>

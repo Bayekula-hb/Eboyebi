@@ -51,6 +51,6 @@
                 </div>
             </div>
         </div>
-        <script src="Public/Js/Mon_Js.js"></script>
+        <script src="../Js/Mon_Js.js"></script>
     </body>
 </html>

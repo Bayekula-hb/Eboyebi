@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('Controller/Index.php');
 
 if(isset($_GET['Page'])){
@@ -18,4 +19,5 @@ if(isset($_GET['Page'])){
     }
 }else{
     Index();
-}
+}?>
+<script src="Public/Js/Mon_Js.js"></script>

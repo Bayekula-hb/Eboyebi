@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="Public/Css/MonStyle.css">
         <title><?= $title ?></title>
     </head>
-    <body >
+    <body id="Bodybody">
         <div class="p-lg-3 bg-primary text-white">
             <div class="container">
                 <div class="row">
