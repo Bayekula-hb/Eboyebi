@@ -39,7 +39,7 @@
                 </div>
                 <div class="bg-light row" >
                    <div class="col-12" id="FormulaireLogin">
-                      <?php require_once('Admins/Public/Annexes/FormulaireConnexion.php');?>
+                      <?php require_once('Public/Annexes/FormulaireConnexion.php');?>
                    </div>
                 </div>
             </div>

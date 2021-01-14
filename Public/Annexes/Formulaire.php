@@ -20,7 +20,17 @@
         <input type="password" id="pass2" class="form-control" name="pass2"/> 
     </div>
     <br/>
-    <div class="g-recaptcha" data-sitekey="6LdW4PwZAAAAAJDdlP9yMWzFftSgQALvW1kkriQq"></div>
-    <br/>
     <button  id="Btn_Form" type="submit" class="bg btn-primary" name="Inscription"> S'inscrire </button>
+    <input type="hidden" name="RecaptchaResponse" id="Recaptcha">
 </form>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfhDCEaAAAAALl_97ZC-d7IrPAaOqOixeyWaWf9"></script>
+<script>
+    function onClick(e) {
+    e.preventDefault();
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfhDCEaAAAAALl_97ZC-d7IrPAaOqOixeyWaWf9', {action: 'submit'}).then(function(token) {
+            document.getElementById('Recaptcha').value = token;
+        });
+    });
+    }
+</script>

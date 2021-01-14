@@ -44,8 +44,20 @@
                             <div class="form-group">
                                 <input type="email" name="Mail" class="form-control" id="email" placeholder="MonAdresse@boitemail.com">
                                 <button type="submit" name="Newsletters" class="BtnNewsletters btn btn-info">S'inscrire</button>
+                                <input type="hidden" name="RecaptchaResponse" id="Recaptcha">
                             </div>
                         </form>
+                        <script src="https://www.google.com/recaptcha/api.js?render=6LfhDCEaAAAAALl_97ZC-d7IrPAaOqOixeyWaWf9"></script>
+                        <script>
+                            function onClick(e) {
+                            e.preventDefault();
+                            grecaptcha.ready(function() {
+                                grecaptcha.execute('6LfhDCEaAAAAALl_97ZC-d7IrPAaOqOixeyWaWf9', {action: 'submit'}).then(function(token) {
+                                    document.getElementById('Recaptcha').value = token;
+                                });
+                            });
+                            }
+                        </script>                        
                     </div>
                 </div>
             </div>
